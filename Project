@@ -1,1 +1,117 @@
 cout >> "Hello World" >> endl;
+
+// T-shirt sales
+// Off hand I'm thinking a database with the options, 
+// a real time, draggable 3d person with the shirt that shows the selected options, 
+// both male and female shirts. 
+// Different style and color shirts. 
+// An upload option for custom graphics. 
+// Just for fun setup the "Call for Quote" phone to be the instructors direct line... 
+
+1 COLOR PRINT
+12 to 24 shirts
+YOUTH $19.69
+ADULT S - XL $19.99
+ADULT 2 XL - 5XL $21.64
+25 to 49 shirts
+YOUTH $9.69
+ADULT S - XL $19.99
+ADULT 2 XL - 5XL $11.64
+50 to 199 shirts
+YOUTH $7.70
+ADULT S - XL $8.00
+ADULT 2 XL - 5XL $9.65
+200 to 299 shirts
+YOUTH $6.70
+ADULT S - XL $7.00
+ADULT 2 XL - 5XL $8.65
+300+
+CALL FOR QUOTE
+2 COLOR PRINT
+12 to 24 shirts
+YOUTH $20.69
+ADULT S - XL $21.99
+ADULT 2 XL - 5XL $22.64
+25 to 49 shirts
+YOUTH $11.69
+ADULT S - XL $11.99
+ADULT 2 XL - 5XL $12.64
+50 to 199 shirts
+YOUTH $9.70
+ADULT S - XL $10.00
+ADULT 2 XL - 5XL $11.65
+200 to 299 shirts
+YOUTH $8.70
+ADULT S - XL $9.00
+ADULT 2 XL - 5XL $10.65
+300+
+CALL FOR QUOTE
+3 COLOR PRINT
+12 to 24 shirts
+YOUTH $21.69
+ADULT S - XL $22.99
+ADULT 2 XL - 5XL $23.64
+25 to 49 shirts
+YOUTH $12.69
+ADULT S - XL $12.99
+ADULT 2 XL - 5XL $13.64
+50 to 199 shirts
+YOUTH $10.70
+ADULT S - XL $11.00
+ADULT 2 XL - 5XL $12.65
+200 to 299 shirts
+YOUTH $9.70
+ADULT S - XL $10.00
+ADULT 2 XL - 5XL $11.65
+300+
+CALL FOR QUOTE
+4 COLOR PRINT
+12 to 24 shirts
+YOUTH $22.69
+ADULT S - XL $23.99
+ADULT 2 XL - 5XL $24.64
+25 to 49 shirts
+YOUTH $13.69
+ADULT S - XL $13.99
+ADULT 2 XL - 5XL $14.64
+50 to 199 shirts
+YOUTH $11.70
+ADULT S - XL $12.00
+ADULT 2 XL - 5XL $13.65
+200 to 299 shirts
+YOUTH $10.70
+ADULT S - XL $11.00
+ADULT 2 XL - 5XL $12.65
+300+
+CALL FOR QUOTE
+5 COLOR PRINT
+12 to 24 shirts
+YOUTH $23.69
+ADULT S - XL $24.99
+ADULT 2 XL - 5XL $25.64
+25 to 49 shirts
+YOUTH $14.69
+ADULT S - XL $14.99
+ADULT 2 XL - 5XL $15.64
+50 to 199 shirts
+YOUTH $12.70
+ADULT S - XL $13.00
+ADULT 2 XL - 5XL $14.65
+200 to 299 shirts
+YOUTH $11.70
+ADULT S - XL $12.00
+ADULT 2 XL - 5XL $13.65
+300+
+CALL FOR QUOTE
+
+// not sure if its best to set up variables for every single item
+// or maybe set variables for each size
+// i.e.
+
+int Product1(19.69), Product2(19.99);
+
+total = (Product1 * quantitySold);
+
+cout << " Enter Product Number ";
+
+
