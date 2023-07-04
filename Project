@@ -103,6 +103,41 @@ ADULT S - XL $12.00
 ADULT 2 XL - 5XL $13.65
 300+
 CALL FOR QUOTE
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numShirts;
+    cout << "Enter the number of shirts: ";
+    cin >> numShirts;
+
+    if (numShirts >= 12 && numShirts <= 24) {
+        cout << "YOUTH $19.69" << endl;
+        cout << "ADULT S - XL $19.99" << endl;
+        cout << "ADULT 2 XL - 5XL $21.64" << endl;
+    } else if (numShirts >= 25 && numShirts <= 49) {
+        cout << "YOUTH $9.69" << endl;
+        cout << "ADULT S - XL $19.99" << endl;
+        cout << "ADULT 2 XL - 5XL $11.64" << endl;
+    } else if (numShirts >= 50 && numShirts <= 199) {
+        cout << "YOUTH $7.70" << endl;
+        cout << "ADULT S - XL $8.00" << endl;
+        cout << "ADULT 2 XL - 5XL $9.65" << endl;
+    } else if (numShirts >= 200 && numShirts <= 299) {
+        cout << "YOUTH $6.70" << endl;
+        cout << "ADULT S - XL $7.00" << endl;
+        cout << "ADULT 2 XL - 5XL $8.65" << endl;
+    } else if (numShirts >= 300) {
+        cout << "YOUTH $6.70" << endl;
+        cout << "ADULT S - XL $7.00" << endl;
+        cout << "ADULT 2 XL - 5XL $8.65" << endl;
+    } else {
+        cout << "Invalid number of shirts entered." << endl;
+    }
+
+    return 0;
+}
+
 
 // not sure if its best to set up variables for every single item
 // or maybe set variables for each size
